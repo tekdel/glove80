@@ -39,6 +39,14 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
+
+	pd3: prog_dvorak_rcurly_three_def {
+   		compatible = "zmk,behavior-mod-morph"; 
+   		label = "pd3"; 
+   		mods = <(MOD_LSFT|MOD_RSFT)>; 
+   		#binding-cells = <0>;
+   		bindings = <&kp RBRC>, <&kp N3>;
+	};
     };
 
     macros {
