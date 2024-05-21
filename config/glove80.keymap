@@ -40,12 +40,36 @@
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
 
-	pd3: prog_dvorak_rcurly_three_def {
-   		compatible = "zmk,behavior-mod-morph"; 
-   		label = "pd3"; 
-   		mods = <(MOD_LSFT|MOD_RSFT)>; 
-   		#binding-cells = <0>;
-   		bindings = <&kp RBRC>, <&kp N3>;
+	pd7: plus_seven_def {
+	    compatible = "zmk,behavior-mod-morph";
+	    label = "pd7";
+	    mods = <(MOD_LSFT|MOD_RSFT)>; 
+	    #binding-cells = <0>;
+	    bindings = <&kp PLUS>, <&kp N7>;
+	};
+
+	pd5: left_bracket_five_def {
+	    compatible = "zmk,behavior-mod-morph";
+	    label = "pd5";
+	    mods = <(MOD_LSFT|MOD_RSFT)>; 
+	    #binding-cells = <0>;
+	    bindings = <&kp LBRC>, <&kp N5>;
+	};
+
+	pd1: plus_three_def {
+	    compatible = "zmk,behavior-mod-morph";
+	    label = "pd1";
+	    mods = <(MOD_LSFT|MOD_RSFT)>; 
+	    #binding-cells = <0>;
+	    bindings = <&kp PLUS>, <&kp N1>;
+	};
+
+	pd1: plus_three_def {
+	    compatible = "zmk,behavior-mod-morph";
+	    label = "pd1";
+	    mods = <(MOD_LSFT|MOD_RSFT)>; 
+	    #binding-cells = <0>;
+	    bindings = <&kp PLUS>, <&kp N1>;
 	};
     };
 
