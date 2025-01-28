@@ -156,7 +156,7 @@
             &kp TAB        &kp SEMI  &kp COMMA   &kp DOT     &kp P       &kp Y                                                                      &kp F   &kp G   &kp C       &kp R       &kp L       &kp FSLH
             &kp ESC        &kp A     &kp O       &kp E       &kp U       &kp I                                                                      &kp D   &kp H   &kp T       &kp N       &kp S       &kp MINUS
             &kp LSHIFT     &kp SQT   &kp Q       &kp J       &kp K       &kp X   &kp LMETA   &kp LALT   &layer_td  &kp LGUI  &kp RALT &kp RMETA     &kp B   &kp M   &kp W       &kp V       &kp Z       &kp RSHIFT
-            &magic MAGIC 0 &kp GRAVE &kp END     &kp LEFT    &kp RIGHT           &kp BSPC    &kp DELETE   &kp LCTRL  &kp RCTRL &kp RET &kp SPACE            &kp UP  &kp DOWN    &kp LBKT    &kp RBKT    &magic MAGIC 0
+            &magic MAGIC 0 &kp GRAVE &kp END     &kp LEFT    &kp RIGHT           &kp BSPC    &kp DELETE   &kp LCTRL  &kp RCTRL &kp RET &kp SPACE            &kp UP  &kp DOWN    &kp LBKT    &kp RBKT    &none
             >;
         };
 
